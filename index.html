@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <script src="https://kit.fontawesome.com/458f587453.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <div class="logo-main">
+          <img class="logo" src="images/shizuka.png" /> <strong>Anchal Tyagi</strong>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li>
+              <a href="#my-home"><i class="fa-solid fa-house"></i> Home</a>
+            </li>
+            <li>
+              <a href="#about-me"><i class="fa-solid fa-address-card"></i> About</a>
+            </li>
+            <li>
+              <a href="#my-skills"><i class="fa-solid fa-star"></i> Skill</a>
+            </li>
+            <li>
+              <a href="#our-services"><i class="fa-solid fa-clipboard"></i> Services</a>
+            </li>
+            <li>
+              <a href="#my-project"><i class="fa-solid fa-file"></i> Project</a>
+            </li>
+            <li>
+              <a href="#my-contact"><i class="fa-solid fa-address-book"></i> Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle-theme">
+          <button class="icon"><i class="fa-solid fa-sun"></i></button>
+          <button class="icon"><i class="fa-solid fa-moon"></i></button>
+        </div>
+      </header>
+      <div id="my-home">
+      <section class="intro" id="home">
+        <div class="img-container">
+          <img src="images/IMG_1246.jpg" />
+        </div>
+        <div class="content">
+          <h3>Hey! I am Anchal</h3>
+          <p>
+            <qoute>
+              "As a developer, I'm passionate about crafting innovative solutions and bringing ideas
+              to life through code. Whether it's building sleek websites, powerful applications, or
+              tackling complex algorithms, I thrive on the challenges of software development.
+              Excited to connect and collaborate on exciting projects! Let's build something awesome
+              together. 😊🚀 <br />
+
+              #Anchal Tyagi"
+            </qoute>
+          </p>
+          <hr />
+          <p>
+            <span class="circle-icon"><a href="https://about.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></span>
+            <span class="circle-icon"><a href="https://github.com/topics/login-page"><i class="fa-brands fa-github"></i></a></span>
+            <span class="circle-icon"><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></span>
+            <span class="circle-icon"><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></span>
+          </p>
+          <br />
+          <button class="button">Download CV</button>
+        </div>
+      </section>
+    </div>
+      <div id="about-me">
+        <div class="divider"></div>
+
+        <section class="aboutme" id="about">
+          <div class="content">
+            <h3>About Me</h3>
+            <p>
+              Hi, I am Anchal I am a professional who is interested in fullstack development and teaching, I have several 
+              years of experience in teaching as well as few years of experience in a technical role in HCLTech.I have joined
+              internshala's fullstack course to get into  fullstack development. Besides these I love dancing and listening to music.
+            </p>
+            <button class="button">Read More</button>
+          </div>
+          <div class="img-container">
+            <img src="images/profile.jpg" width="250" height="500" />
+          </div>
+        </section>
+      </div>
+      <div id="my-skills">
+        <div class="divider"></div>
+        <div class="skill">
+          <h3>My Skills</h3>
+        </div>
+
+        <section id="our-skills">
+          <div class="our_skills" id="skills">
+            <table class="charts-css column show-heading show-labels data-spacing-15 hide-data">
+              <thead>
+                <tr>
+                  <th scope="col">Year</th>
+                  <th scope="col">Value</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <th>Python</th>
+                  <td style="--size: calc(80 / 100)">80</td>
+                </tr>
+                <tr>
+                  <th>Html</th>
+                  <td style="--size: calc(90 / 100)">90</td>
+                </tr>
+                <tr>
+                  <th>CSS</th>
+                  <td style="--size: calc(60 / 100)">60</td>
+                </tr>
+                <tr>
+                  <th>DBMS</th>
+                  <td style="--size: calc(80 / 100)">80</td>
+                </tr>
+                <tr>
+                  <th>JS</th>
+                  <td style="--size: calc(50 / 100)">50</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+      <div id="our-services">
+      <div class="divider"></div>
+      <div class="skill">
+        <h1>Our Services</h1>
+      </div>
+      <section class="services" id="services">
+        <div class="card">
+          <div class="header">
+            <i class="fa-solid fa-code"></i>
+            <h3>Web-dev</h3>
+          </div>
+          <div class="body">
+            <p>
+              Web development is the process of building and maintaining websites or web
+              applications. It involves designing user interfaces, writing code for both frontend
+              and backend functionality, managing databases, ensuring security, and deploying
+              websites for internet access.web development involves a combination of technical
+              skills and creative problem-solving to build functional and visually appealing
+              websites and web applications.
+            </p>
+            <button class="button">Read More</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="header">
+            <i class="fa-solid fa-pen"></i>
+            <h3>Web Design</h3>
+          </div>
+          <div class="body">
+            <p>
+              Web design refers to the process of conceptualizing, planning, and creating the visual
+              elements and layout of a website. It encompasses the aesthetic aspects of website
+              development, focusing on the overall look,feel,and user experience.Effective web
+              design aims to create a cohesive and intuitive user experience while aligning with the
+              website's purpose and goals.
+            </p>
+            <button class="button">Read More</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="header">
+            <i class="fa-solid fa-database"></i>
+            <h3>Database</h3>
+          </div>
+          <div class="body">
+            <p>
+              DBMS stands for Database Management System. It's a software suite that provides an
+              interface for users to interact with a database. It enables the creation, querying,
+              updating, and management of databases, ensuring data integrity, security, and
+              efficient access. Examples include MySQL, Oracle, SQL Server, and MongoDB.
+            </p>
+            <button class="button">Read More</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div id="my-project">
+      <div class="divider"></div>
+      <section class="my-projects">
+        <div class="project">
+          <h3>My Latest Project</h3>
+        </div>
+        <div class="project-img">
+          <div class="detail">
+            <img src="images/project1.png" />
+          </div>
+          <div class="detail">
+            <img src="images/project2.png" />
+          </div>
+          <div class="detail">
+            <img src="images/project3.png" />
+          </div>
+        </div>
+        <div class="project-img">
+          <div class="detail">
+            <img src="images/project4.png" />
+          </div>
+          <div class="detail">
+            <img src="images/project5.png" />
+          </div>
+          <div class="detail">
+            <img src="images/project6.png" />
+          </div>
+        </div>
+      </div>
+      </section>
+      
+      <div class="divider"></div>
+      <div class="skill">
+        <div id="my-contact"></div>
+        <h3>Contact Me!</h3>
+      </div>
+      <section class="contact">
+        <form>
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+          <input type="email" placeholder="Email" />
+          <input type="tel" placeholder="Mobile" />
+          <textarea rows="10" placeholder="Message"></textarea>
+          <button class="button">Send Message</button>
+        </form>
+      </section>
+    </div>
+ 
+  
+    <footer>
+      <span class="circle-icon"><i class="fa-solid fa-envelope"></i></span>
+      <span class="circle-icon"><i class="fa-brands fa-whatsapp"></i></span>
+    </footer>
+  </div>
+  </body>
+</html>
